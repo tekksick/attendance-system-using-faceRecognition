@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Musseo&family=Montserrat:wght@200;400;600&family=Titillium+Web:wght@200;400;600&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap">
-    <link rel="stylesheet" type="text/css" href="/css/navbar.css">
     <style>
         /* styles.css */
 body {
@@ -29,41 +28,10 @@ h2 {
     color: #333;
     font-family: Titillium Web,sans-serif;
     font-weight:bold;
+    text-align:center!important;
+
 }
 
-p {
-    font-size: 18px;
-}
-
-.btn-lg {
-    padding: 10px 20px;
-    font-size: 20px;
-    margin: 10px;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-    color: #fff;
-}
-
-.btn-success {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff;
-}
-
-.btn-success:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-    color: #fff;
-}
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 .header {
@@ -92,28 +60,31 @@ p {
 	padding: 20px;
 	margin:0;
 }
-p {
-    display: block;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
+#signup-btn:disabled{
+    background-color: rgba(0,0,0,.12);
+}
+#signup-btn {
+    background-color:#3f51b5;
+    border-color:#3f51b5;
+    color: #fff;
+    padding: 3px 20px;
+    font-size: 15px;
+    border-radius:4px;
     font-family:Helvetica Neue,sans-serif;
-    font-size:14px;
 }
     </style>
 </head>
 <body>
     <div class="container text-center">
         <h2>Signup</h2>
-        <p>Choose your account type:</p>
         <div class="row">
             <div class="col-md-6">
-                <a href="/student" class="btn btn-primary btn-lg">Signup for Student</a>
+                <a href="/student" class="btn btn-primary" id="signup-btn">Signup for Student</a>
             </div>
             <div class="col-md-6">
-                <a href="/faculty" class="btn btn-success btn-lg">Signup for Faculty</a>
+                <a href="/faculty" class="btn btn-primary" id="signup-btn">Signup for Faculty</a>
             </div>
-            <p>Already, Have an account? <a href="/">Login</a></p>
         </div>
     </div>
 </body>
