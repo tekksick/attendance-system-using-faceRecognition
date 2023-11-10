@@ -14,7 +14,7 @@ This is an attendance system which automatically marks attendance on uploading g
 
 - To install dlib make sure python's version is 3.12.0 and you have visual studio for c++ on your device.
   
--  Then download this dlib file. `file:///C:/Users/saipr/OneDrive/Desktop/ML/dlib-19.24.1-cp311-cp311-win_amd64.whl#sha256=6f1a5ee167975d7952b28e0ce4495f1d9a77644761cf5720fb66d7c6188ae496`
+-  Then download this dlib file. `https://drive.google.com/file/d/11dkOCYUd72wikVIXRGiUclvKB3FHbiHY/view?usp=sharing`
 
 - To run the game, run the following command,
   `python manage.py runserver`
